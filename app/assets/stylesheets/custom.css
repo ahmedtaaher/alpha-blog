@@ -1,0 +1,43 @@
+.navbar {
+  background-color: black !important;
+}
+.nav-link {
+  color: white !important;
+}
+#logo {
+  float: left;
+  font-size: 1.7em;
+  color: #fff;
+  text-transform: uppercase;
+  letter-spacing: -1px;
+  font-weight: bold;
+}
+#home-container {
+  margin-top: 25px;
+}
+.jumbotron {
+  background-image: url("/assests/blog.jpg");
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 425px;
+  position: relative;
+  color: white;
+}
+#page-content {
+  background-color: lightgrey;
+  min-height: 100vh;
+  padding: 2rem;
+}
+.hover-underline {
+  text-decoration: none;
+}
+.hover-underline:hover {
+  text-decoration: underline;
+}
+.no-underline {
+  text-decoration: none;
+}
+.no-underline:hover {
+  text-decoration: underline;
+}
