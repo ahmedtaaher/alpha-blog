@@ -23,7 +23,10 @@
             </ul>
           </li>
           <li class="nav-item">
-            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            <%= link_to "Login", login_path, class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "Loggout", logout_path, class: "nav-link", method: :delete, data: { turbo_method: :delete } %>
           </li>
         </ul>
         <form class="d-flex ms-auto" role="search">
